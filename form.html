@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rigistration Form</title>
+    <style>
+        body{
+height: 100vh;
+
+background-color: azure;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+background-image: url(view2.jpg);
+background-size: cover;
+image-orientation: from-image;
+
+        }
+.form{
+display: flex;
+flex-direction: column;
+width: 600px;
+height: auto;
+background-color: whitesmoke;
+padding: 10px;
+
+background-image: url(view2.jpg);
+background-size: cover;
+
+
+}
+input{
+padding: 3px;
+margin: 5px 0 5px 0;
+border: none;
+border-bottom: 1px solid gray;
+outline: 0;
+
+
+}
+input[type=submit]{
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 3px;
+    background-color: rgb(62, 62, 203); 
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    animation-timing-function: ease;
+    transform-origin: center;
+    
+}
+
+
+input[type=submit]:hover{
+   
+    background-color: rgb(23, 23, 211);
+
+}
+h2{
+ margin: 0;   
+ margin-bottom: 10px;
+}
+label{
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+   <form action="" class="form">
+       <h2>Rigistration Form</h2>
+<label for="F/Name">F/Name</label>
+<input type="text">
+
+<label for="L/Name">L/Name</label>
+<input type="text">
+
+<label for="password">Password</label>
+<input type="password">
+
+<label for="email">Email</label>
+<input type="email">
+
+<input type="submit" value="Save">
+
+   </form> 
+</body>
+</html>
